@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intestazione img {
+    width: 10%;
+    margin-left: 10px;
+}
+
+.intestazione {
+    background-image: url(img/pattern.png);
+}
+
+.container {
+    margin-left: 10px;
+}
+
+.fadedText {
+    color: rgba(0, 0, 0, .5);
+}
+
+.fadedText span {
+    color: #47b8e9;
+
+}
