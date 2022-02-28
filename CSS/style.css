@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+.marginTop {
+    margin-top: 15px;
+}
+
+.highlighted {
+    background-color: #ffff00;
+}
+
 /* HEADER */
 .banner img {
     width: 200px;
@@ -25,13 +33,13 @@
     margin-right: 15px;
 }
 
-.imageContainer {
-    margin-top: 15px;
+.container h1 {
+    font-size: 50px;
 }
 
 .container h1{
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .fadedText {
@@ -46,16 +54,15 @@
     color: #47b8e9;
 }
 
-.marginTop {
-    margin-top: 15px;
-}
-
-.highlighted {
-    background-color: #ffff00;
-}
-
+/* lista */
 div ul {
     margin-left: 40px;
+}
+
+/* table */
+
+table {
+    border-collapse: collapse;
 }
 
 thead {
@@ -66,6 +73,10 @@ thead {
 
 .rigaAzzurra {
     background-color: #b1e5f2;
+}
+
+.column25 {
+    width: 25%;
 }
 
 /* FOOTER */
