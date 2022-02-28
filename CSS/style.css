@@ -13,7 +13,7 @@
 
 .intestazione {
     background-image: url(../img/pattern.png);
-    background-size: 40%;
+    background-size: 300px;
     background-color: #4ea0ff;
 }
 
@@ -49,4 +49,18 @@
 
 .highlighted {
     background-color: #ffff00;
+}
+
+div ul {
+    margin-left: 40px;
+}
+
+thead {
+    text-align: left;
+    background-color: #20a9e5;
+    color: white;
+}
+
+.rigaAzzurra {
+    background-color: #b1e5f2;
 }
