@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
 .intestazione img {
-    width: 10%;
+    width: 150px;
     margin-left: 10px;
     margin-top: 30px;
 }
 
 .intestazione {
     background-image: url(../img/pattern.png);
-    background-size: 15%;
+    background-size: 40%;
     background-color: #4ea0ff;
 }
 
+/* MAIN */
 .container {
     margin-left: 10px;
 }
@@ -37,6 +39,14 @@
     font-size: 12px;
 }
 
-.fadedText span {
+.blueText {
     color: #47b8e9;
+}
+
+.marginTop {
+    margin-top: 15px;
+}
+
+.highlighted {
+    background-color: #ffff00;
 }
