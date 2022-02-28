@@ -1,3 +1,5 @@
+/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +7,13 @@
 }
 
 /* HEADER */
-.intestazione img {
-    width: 150px;
-    margin-left: 10px;
-    margin-top: 30px;
+.banner img {
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 40px;
 }
 
-.intestazione {
+.banner {
     background-image: url(../img/pattern.png);
     background-size: 300px;
     background-color: #4ea0ff;
@@ -19,7 +21,8 @@
 
 /* MAIN */
 .container {
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .imageContainer {
@@ -64,6 +67,8 @@ thead {
 .rigaAzzurra {
     background-color: #b1e5f2;
 }
+
+/* FOOTER */
 
 .imageFooterUno {
     background-image: url(../img/monitor.jpg);
