@@ -6,13 +6,16 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
 .marginTop {
     margin-top: 15px;
 }
 
 .container {
-    margin-left: 15px;
-    margin-right: 15px;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 .highlighted {
@@ -20,15 +23,14 @@
 }
 
 /* HEADER */
-.banner img {
-    width: 200px;
-    margin-left: 15px;
+#logo {
+    height: 50px;
     margin-top: 40px;
 }
 
-.banner {
-    background-image: url(../img/pattern.png);
+header {
     background-size: 300px;
+    background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
 }
 
@@ -36,9 +38,6 @@
 
 .container h1 {
     font-size: 50px;
-}
-
-.container h1{
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -68,8 +67,8 @@ table {
 
 thead {
     text-align: left;
-    background-color: #20a9e5;
     color: white;
+    background-color: #20a9e5;
 }
 
 .rigaAzzurra {
@@ -82,24 +81,20 @@ thead {
 
 /* FOOTER */
 
-.imageFooterUno {
-    background-image: url(../img/monitor.jpg);
+.imageFooter {
     width: 300px;
     height: 200px;
-    background-size: cover;
-}
-
-.imageFooterDue {
-    background-image: url(../img/graph.jpg);
-    width: 300px;
-    height: 200px;
-    background-size: cover;
-    margin-bottom: 20px;
-}
-
-.imageFooterUno, .imageFooterDue {
     font-size: 20px;
     font-weight: bold;
     color: white;
+    background-size: cover;
     padding: 15px;
+}
+
+.imageFooter.Uno {
+    background-image: url(../img/monitor.jpg);
+}
+
+.imageFooter.Due {
+    background-image: url(../img/graph.jpg);
 }
